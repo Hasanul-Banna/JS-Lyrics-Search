@@ -32,7 +32,7 @@ function showData(data){
     result.innerHTML = `
     <ul class="song-list">
       ${data.data
-        .map(song=> `<li>
+        .map( song => `<li>
                     <div>
                     ${song.title}  <strong>Album by- ${song.artist.name}</strong>  
                     </div>

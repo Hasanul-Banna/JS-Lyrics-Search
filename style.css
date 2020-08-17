@@ -24,6 +24,7 @@ header{
     background-position: center;
     background-size: cover;
     position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 .container{
     position: absolute;
@@ -75,8 +76,10 @@ button:hover{
 li{
     list-style: none;
 }
-
-.result{
+.result h2 {
+    color: greenyellow;
+}
+.result {
     color: white;
     font-size: 30px;
     text-align: center;
